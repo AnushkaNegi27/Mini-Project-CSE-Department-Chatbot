@@ -1,0 +1,658 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hii",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I do for you?",
+        "Hey! How can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care.",
+        "Bye! Come back if you need more help."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "thankyou",
+        "I appreciate it",
+        "Much obliged"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem at all!",
+        "Anytime! I'm here to help."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Can you tell me your name?"
+      ],
+      "responses": [
+        "I'm your virtual assistant.",
+        "I'm an intelligent chatbot here to help you.",
+        "You can call me EduBot!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "What is your age?",
+        "When were you created?"
+      ],
+      "responses": [
+        "I was created recently to help with your queries.",
+        "Age is just a number! I'm here to assist you anytime.",
+        "I'm as old as technology allows me to be."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What is the weather like?",
+        "Is it sunny today?",
+        "What's the forecast for tomorrow?",
+        "Is it raining?"
+      ],
+      "responses": [
+        "I suggest checking a weather website for the latest updates.",
+        "I can't provide live weather updates, but you can try a weather app!",
+        "It's always a good idea to keep an umbrella handy just in case."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes?"
+      ],
+      "responses": [
+        "Why don't programmers like nature? Because it has too many bugs.",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "I told my computer I needed a break, and now it won't stop sending me KitKats."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help",
+        "Can you help me?",
+        "What can you do?",
+        "How can you assist me?"
+      ],
+      "responses": [
+        "I can help with general queries, provide information, or just chat with you.",
+        "Let me know what you need help with, and I'll do my best to assist.",
+        "I'm here to answer questions and assist with tasks. What do you need?"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Can you tell me the current time?",
+        "Do you know the time?"
+      ],
+      "responses": [
+        "I'm not equipped with a clock, but you can check the time on your device.",
+        "Time is relative! But your clock should help you better.",
+        "Unfortunately, I don't have the time right now. Try checking a clock."
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "What day is it?",
+        "What's the date today?",
+        "Do you know today's date?"
+      ],
+      "responses": [
+        "I recommend checking your calendar for the exact date.",
+        "Today is a beautiful day, that's for sure!",
+        "Check your device for the precise date."
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "What's the latest news?",
+        "Tell me something interesting happening around the world.",
+        "Do you know any current events?"
+      ],
+      "responses": [
+        "I recommend checking a news website like BBC or CNN for the latest updates.",
+        "You can find the latest news on your favorite news app.",
+        "Stay informed with reliable sources like online newspapers or news channels."
+      ]
+    },
+    {
+      "tag": "CSE",
+      "patterns": [
+        "Tell me about the CSE Computer Science department.",
+        "What courses do you offer in CSE?",
+        "What is B.Tech CSE?"
+      ],
+      "responses": [
+        "Our department offers B.Tech program in Computer Science and Engineering with various specializations such as in Cybersecurity, AI-ML, AI-DS etc. You can find more details on our website https://dehradun.gehu.ac.in/course/b-tech-computer-science-engineering/",
+        "B.Tech CSE is an undergraduate degree program that focuses on the study of computer software, hardware, and networking, preparing students for a career in the field of computer engineering."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How can I apply for admission?",
+        "What are the eligibility criteria for CSE?",
+        "Is there an entrance exam for the CSE department?",
+        "What is the admission process?",
+        "Where can I get the application form?"
+      ],
+      "responses": [
+        "You can apply online through our college portal https://dehradun.gehu.ac.in/admissions/. Check the admission section for details.",
+        "Admissions are based on merit and entrance exams. Please visit the official website for criteria https://dehradun.gehu.ac.in/admissions/",
+        "Application forms are available in the admission section of our website https://dehradun.gehu.ac.in/admissions/"
+      ]
+    },
+    {
+      "tag": "syllabus",
+      "patterns": [
+        "Where can I find the syllabus?",
+        "What courses are included in the first year?",
+        "Can you provide details of core subjects?",
+        "Do you have a Machine Learning course?",
+        "Is there an updated syllabus for 2024?"
+      ],
+      "responses": [
+        "The syllabus is available on the student portal under the syllabus section. Kindly visit the given link http://btechcsegehu.in/",
+        "First-year is divided into two groups Physics group and Chemistry group. Physics group includes C Programming, Mathematics, Electrical, Mechanical workshop and Physics. Chemistry group includes C Programming, Mathematics, Electronics, Mannual Drawing and AutocAd and Chemistry. Visit the syllabus section for details.",
+        "Yes, the updated syllabus for 2024 is now available on the website http://btechcsegehu.in/syllabus/ "
+      ]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": [
+        "When is the mid-term exam?",
+        "When is the end-term exam?",
+        "What is the date for final exams?",
+        "Can I get the exam timetable?",
+        "Where can I find exam schedules?",
+        "Are exams conducted online or offline?"
+      ],
+      "responses": [
+        "Exam schedules are posted on the official website.Kindly visit the link to get updates https://dehradun.gehu.ac.in/exam-portal/ ",
+        "Final exams are conducted in Dec-Jan, and mid-terms in March-April.",
+        "You can download the exam schedule from the link provided https://dehradun.gehu.ac.in/exam-portal/."
+      ]
+    },
+    {
+      "tag": "lab_facilities",
+      "patterns": [
+        "What labs are available in the CSE department?",
+        "What is the timing for the computer lab?",
+        "Can I use the networking lab for practice?"
+      ],
+      "responses": [
+        "Our department offers labs for AIML, Data Structures, Logic Designing, Computer Organization, OOPs, Opeerating systems, DBMS etc.",
+        "Lab timings differ for different section. You can check from the timetable, the link is provided here http://btechcsegehu.in/"
+      ]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "Who teaches Operating Systems?",
+        "Can you provide faculty details?",
+        "How can I contact the HOD of CSE?",
+        "Who is the professor for Machine Learning?",
+        "Where can I find the faculty profiles?"
+      ],
+      "responses": [
+        "Faculty profiles are available on the department website. Kindly check it out here https://dehradun.gehu.ac.in/computer-science-and-engineering/faculty/"
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "What companies visit the campus for placements?",
+        "What is the average package for CSE students?",
+        "How do I prepare for placements?",
+        "Are there any placement training programs?",
+        "What is the placement rate for CSE?"
+      ],
+      "responses": [
+        "Companies like Google, Microsoft, Amazon, Adobe, TCS etc. visit for placements.",
+        "The average package for CSE graduates is 8 LPA.",
+        "Placement training programs are conducted every semester."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Are there any upcoming coding competitions?",
+        "What events are planned this month?",
+        "When is the annual tech fest?",
+        "How can I register for workshops?",
+        "Are there hackathons in the CSE department?"
+      ],
+      "responses": [
+        "The annual tech fest is scheduled for January. Registrations open in December.",
+        "A Hackathon is planned for next month. Visit the events page for details.",
+        "You can register for workshops through the student portal."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "Where is the library located?",
+        "Does the library have books on AI?",
+        "What is the library timing?",
+        "How do I search for books in the library?"
+      ],
+      "responses": [
+        "The library is located on the first floor.",
+        "Yes, the library has a vast collection of AI and ML books.",
+        "Library timings are 8 AM to 6 PM on weekdays."
+      ]
+    },
+    {
+      "tag": "PYQ",
+      "patterns": [
+        "From where I can get PYQ?",
+        "What type of questions come in exam?",
+        "Can you please give me PYQ"
+      ],
+      "responses": [
+        "You can download the PYQ from the link provided https://gehuhaldwani.in/pyqs/btech/"
+      ]
+    },
+    {
+      "tag": "cse_courses",
+      "patterns": [
+        "What courses are offered in the CSE department?",
+        "Can you provide a list of courses in CSE?",
+        "What subjects do CSE students study?"
+      ],
+      "responses": [
+        "The CSE department offers courses like Data Structures, Algorithms, Operating Systems, Database Management Systems, Artificial Intelligence, Machine Learning, and more. For a detailed list, visit [Course Catalog](http://btechcsegehu.in/).",
+        "Courses in CSE include core subjects like Data Structures, Algorithms, AI, Software Engineering, and electives in areas like Cloud Computing, Cybersecurity, and Data Science. Please check the syllabus for more details."
+      ]
+    },
+    {
+      "tag": "cse_fees",
+      "patterns": [
+        "What is the fee structure for CSE?",
+        "How much is the tuition fee for B.Tech CSE?",
+        "Can you tell me about the fees for CSE students?"
+      ],
+      "responses": [
+        "The fee structure for B.Tech CSE is available on the [Admissions page](https://dehradun.gehu.ac.in/admissions/). Please visit the page for the detailed breakdown of tuition, hostel, and other fees.",
+        "You can check the detailed fee structure on the college website under the 'Fee Structure' section."
+      ]
+    },
+    {
+      "tag": "faculty_information",
+      "patterns": [
+        "Who are the faculty members in the CSE department?",
+        "Can you provide details about CSE faculty?",
+        "Who teaches Artificial Intelligence in the department?"
+      ],
+      "responses": [
+        "The faculty details, including their qualifications and areas of expertise, are available on the [Faculty Page](https://dehradun.gehu.ac.in/computer-science-and-engineering/faculty/).",
+        "For information on faculty members and their contact details, visit the CSE faculty section on the website."
+      ]
+    },
+    {
+      "tag": "cse_lab_facilities",
+      "patterns": [
+        "What labs are available in the CSE department?",
+        "Where can I practice programming in the department?",
+        "Do you have labs for Machine Learning?"
+      ],
+      "responses": [
+        "The CSE department has specialized labs for Data Structures, Networking, Operating Systems, AI/ML, and Programming. For more information, check the [Lab Facilities](http://btechcsegehu.in/labs/).",
+        "Yes, we have dedicated AI and ML labs, as well as general-purpose programming and network labs available for all CSE students."
+      ]
+    },
+    {
+      "tag": "cse_department_events",
+      "patterns": [
+        "Are there any events happening in the CSE department?",
+        "What are the upcoming tech fests and workshops?",
+        "When is the next hackathon in CSE?"
+      ],
+      "responses": [
+        "Upcoming events, including hackathons, coding competitions, and workshops, are listed on the [Events Page](http://btechcsegehu.in/). Stay updated with the calendar!",
+        "The CSE department hosts events like hackathons, coding challenges, and workshops. Visit our [events section](http://btechcsegehu.in/events/) for more details."
+      ]
+    },
+    {
+      "tag": "career_services",
+      "patterns": [
+        "Does the college provide career counseling?",
+        "How can I get placement assistance?",
+        "Can you help with preparing for interviews?"
+      ],
+      "responses": [
+        "Yes, the college offers career counseling services and interview preparation assistance. For more information, visit the [Career Services](https://dehradun.gehu.ac.in/career-services/).",
+        "We provide placement training programs, including mock interviews and resume-building workshops. Visit the [Career Center](http://btechcsegehu.in/career-services/) for guidance."
+      ]
+    },
+    {
+      "tag": "student_internships",
+      "patterns": [
+        "How can I apply for an internship?",
+        "Are internships offered to CSE students?",
+        "Where can I find internship opportunities?"
+      ],
+      "responses": [
+        "Internship opportunities are provided through the department and various industry collaborations. Check the [Internship Portal](http://btechcsegehu.in/internships/) for the latest updates.",
+        "Students can apply for internships through the department’s internship coordinator. Internships in AI, Machine Learning, and other CSE fields are regularly offered."
+      ]
+    },
+    {
+      "tag": "student_mentorship",
+      "patterns": [
+        "Is there a mentorship program for CSE students?",
+        "How can I get a mentor in CSE?",
+        "Do seniors help juniors in the department?"
+      ],
+      "responses": [
+        "Yes, the department has a mentorship program where senior students help guide juniors with academics and career advice. Contact the department office for more details.",
+        "Senior students are assigned as mentors to guide juniors through their academic journey. Please reach out to the department for mentorship details."
+      ]
+    },
+    {
+      "tag": "hostel_facilities",
+      "patterns": [
+        "How can I apply for hostel accommodation?",
+        "What facilities are available in the hostel?",
+        "Can I stay in a hostel as a CSE student?"
+      ],
+      "responses": [
+        "Hostel accommodation is available for all students. You can apply through the [Student Portal](http://btechcsegehu.in/hostel/). The hostel provides facilities like Wi-Fi, mess, and recreational areas.",
+        "Yes, CSE students can apply for hostel accommodation. For more details on room allocation and facilities, visit the hostel section of our website."
+      ]
+    },
+    {
+      "tag": "library_resources",
+      "patterns": [
+        "Can I access the library online?",
+        "Where can I find books for my CSE subjects?",
+        "What resources are available in the library for CSE students?"
+      ],
+      "responses": [
+        "Yes, CSE students can access e-books, journals, and other digital resources through the [Library Portal](http://btechcsegehu.in/library/).",
+        "The library has extensive resources on programming, AI, Machine Learning, Data Science, and other CSE subjects. You can access these materials through the library’s digital platform."
+      ]
+    },
+    {
+      "tag": "placement_statistics",
+      "patterns": [
+        "What is the placement rate for CSE?",
+        "How many students were placed last year?",
+        "Can you provide placement statistics for CSE?"
+      ],
+      "responses": [
+        "The CSE department has a high placement rate with companies like Google, Amazon, and Microsoft regularly hiring our graduates. Please refer to the [Placement Statistics](http://btechcsegehu.in/placements/) page for detailed data.",
+        "Our placement record is excellent, with an average package of 8 LPA. You can find detailed placement statistics on the official [Placement Page](http://btechcsegehu.in/placements/)."
+      ]
+    },
+    {
+      "tag": "course_materials",
+      "patterns": [
+        "Where can I find the course materials for CSE?",
+        "Can I download lecture notes for CSE subjects?",
+        "Do you provide online study material?"
+      ],
+      "responses": [
+        "Course materials, including lecture notes, assignments, and reading materials, are available on the [Student Portal](http://btechcsegehu.in/). You can download them directly from there.",
+        "Yes, course materials are available for all subjects on the student portal. Check the course section for notes, slides, and other resources."
+      ]
+    },
+    {
+      "tag": "coding_club",
+      "patterns": [
+        "Is there a coding club for CSE students?",
+        "How can I join the coding club?",
+        "What events does the coding club organize?"
+      ],
+      "responses": [
+        "Yes, the department has a coding club that organizes regular coding competitions, hackathons, and tech talks. Visit the [Coding Club Page](http://btechcsegehu.in/coding-club/) for more details on events and membership.",
+        "The CSE department’s coding club hosts events such as coding contests and hackathons. You can join by signing up on the [Coding Club Portal](http://btechcsegehu.in/coding-club/)."
+      ]
+    },
+    {
+      "tag": "workshops_and_webinars",
+      "patterns": [
+        "Are there any upcoming workshops or webinars for CSE students?",
+        "When is the next workshop on Machine Learning?",
+        "Can I attend a webinar on Data Science?"
+      ],
+      "responses": [
+        "The department organizes regular workshops and webinars on topics like AI, ML, Cloud Computing, and more. Check the [Workshops Page](http://btechcsegehu.in/workshops/) for upcoming events.",
+        "We have several workshops lined up, including topics like AI, ML, and Data Science. You can register through the [Workshops Portal](http://btechcsegehu.in/workshops/)."
+      ]
+    },
+    {
+      "tag": "technical_fest",
+      "patterns": [
+        "When is the annual technical fest?",
+        "What is the name of the technical fest?",
+        "How can I participate in the annual tech fest?"
+      ],
+      "responses": [
+        "The annual technical fest, ‘TechGen’, is held in January. Visit the [TechGen Page](http://btechcsegehu.in/techgen/) for details and registration.",
+        "TechGen, our annual technical fest, includes events like coding competitions, workshops, and guest lectures. Registration opens in December on the [TechGen Website](http://btechcsegehu.in/techgen/)."
+      ]
+    },
+    {
+      "tag": "hostel_facilities",
+      "patterns": [
+        "What are the hostel facilities for CSE students?",
+        "Where are the hostels located?",
+        "Can I get a single room in the hostel?",
+        "What facilities are available in the CSE student hostel?",
+        "How can I apply for a hostel room?"
+      ],
+      "responses": [
+        "The hostels for CSE students are located within the campus and are equipped with necessary amenities such as Wi-Fi, 24/7 security, and mess facilities. You can apply for a room through the [hostel page](https://dehradun.gehu.ac.in/admissions/).",
+        "Yes, hostel facilities are available for both male and female students. The hostels are equipped with all necessary amenities, including internet access, a common room, and round-the-clock security. You can apply for a hostel room through the [student portal](https://dehradun.gehu.ac.in/admissions/).",
+        "Hostels are located in close proximity to the academic buildings. Students have access to basic amenities, including Wi-Fi, mess services, and recreational areas. Single rooms are available on a first-come, first-serve basis, and you can apply through the [admission portal](https://dehradun.gehu.ac.in/admissions/)."
+      ]
+    },
+    {
+      "tag": "coding_resources_for_cse",
+      "patterns": [
+        "Where can I practice coding outside of class?",
+        "Do you have any coding platforms or websites for CSE students?",
+        "How can I improve my coding skills online?"
+      ],
+      "responses": [
+        "You can practice coding on platforms like LeetCode, HackerRank, Codeforces, and CodeChef. These websites provide problems of varying difficulty levels and are excellent resources for competitive programming and interview preparation.",
+        "Our department encourages students to actively engage with online platforms like [LeetCode](https://leetcode.com/), [HackerRank](https://www.hackerrank.com/), and [CodeChef](https://www.codechef.com/). These platforms offer coding challenges and help you prepare for coding contests and technical interviews."
+      ]
+    },
+    {
+      "tag": "student_mentor_program",
+      "patterns": [
+        "Is there a mentorship program for CSE students?",
+        "Can I get a mentor in the CSE department?",
+        "How can I join the student mentor program?"
+      ],
+      "responses": [
+        "Yes, the CSE department offers a mentorship program where senior students guide juniors in academics and career-related matters. To join, simply sign up at the beginning of each semester via the [student portal](https://dehradun.gehu.ac.in/).",
+        "Our mentorship program pairs senior students with juniors to help with academic challenges, career advice, and personal development. Mentors are available to assist throughout the academic year."
+      ]
+    },
+    {
+      "tag": "online_learning_resources",
+      "patterns": [
+        "Where can I access free coding courses online?",
+        "Do you recommend any platforms for learning AI?",
+        "What online resources do you recommend for CSE students?"
+      ],
+      "responses": [
+        "CSE students have access to a wide variety of free and paid online courses. Platforms like Coursera, edX, Udemy, and MIT OpenCourseWare offer courses in programming, AI, Data Science, and Cloud Computing. You can also explore specific platforms like [Codecademy](https://www.codecademy.com/) and [Khan Academy](https://www.khanacademy.org/).",
+        "To supplement your coursework, you can access learning materials from platforms such as [edX](https://www.edx.org/), [Coursera](https://www.coursera.org/), and [Udacity](https://www.udacity.com/). These platforms offer high-quality courses in programming, AI, Machine Learning, and more."
+      ]
+    },
+    {
+      "tag": "workshop_opportunities",
+      "patterns": [
+        "Are there workshops on AI and Data Science?",
+        "Can I attend workshops for programming languages?",
+        "How can I register for technical workshops?"
+      ],
+      "responses": [
+        "Yes, the CSE department organizes workshops on topics like Artificial Intelligence, Data Science, Cybersecurity, and Cloud Computing. You can register for these workshops through the [student portal](http://btechcsegehu.in/).",
+        "Our department offers regular workshops on a range of technical topics, including AI, Machine Learning, and programming languages. You can register for workshops through the [workshops section](http://btechcsegehu.in/) or via departmental announcements."
+      ]
+    },
+    {
+      "tag": "ai_and_machine_learning_internships",
+      "patterns": [
+        "How do I apply for AI internships?",
+        "Are there internships in AI and Machine Learning?",
+        "Where can I find internships related to Data Science?"
+      ],
+      "responses": [
+        "Internships in AI and Machine Learning are available through industry tie-ups and the department’s internship program. You can check the [internship portal](http://btechcsegehu.in/) for available AI-related internships, or consult your faculty for opportunities.",
+        "The CSE department partners with top tech companies for AI and Machine Learning internships. You can apply through the [internship portal](http://btechcsegehu.in/) or directly reach out to the faculty mentors for project-based internships."
+      ]
+    },
+    {
+      "tag": "department_career_services",
+      "patterns": [
+        "Does the department provide career services?",
+        "How can I get career counseling for placements?",
+        "Can I get help with my resume?"
+      ],
+      "responses": [
+        "Yes, the CSE department offers career counseling services, including resume building, interview preparation, and mock interviews. You can book a session through the [career services page](https://dehradun.gehu.ac.in/placement/).",
+        "We provide various career development services, including workshops on resume building, interview tips, and placement preparation. You can get assistance by visiting the [career services section](https://dehradun.gehu.ac.in/placement/)."
+      ]
+    },
+    {
+      "tag": "final_year_project_guidance",
+      "patterns": [
+        "How do I choose a final year project?",
+        "What are some ideas for final-year projects in CSE?",
+        "Can I work on industry-related projects for my final year?"
+      ],
+      "responses": [
+        "For your final-year project, you can choose from a wide variety of topics such as AI, Data Science, Cloud Computing, and IoT. You may also work on industry-related projects in collaboration with our industry partners. Speak with faculty members to help guide your project selection.",
+        "CSE students often collaborate with industries to work on real-world projects for their final year. Some of the popular areas for projects include web development, machine learning, cybersecurity, and mobile app development. Contact your academic advisor for guidance on project selection."
+      ]
+    },
+    {
+      "tag": "technical_exams_and_certifications",
+      "patterns": [
+        "What certifications should I pursue for a career in CSE?",
+        "Do you recommend any online technical exams for CSE students?",
+        "Can I take certifications in Cloud Computing or AI?"
+      ],
+      "responses": [
+        "As a CSE student, pursuing certifications in areas such as Cloud Computing, AI, Data Science, and software development can boost your career prospects. Popular certifications include AWS Certified Solutions Architect, Google Cloud Certification, and Certified Ethical Hacker (CEH).",
+        "We recommend certifications in cloud platforms (AWS, Google Cloud), programming languages (Java, Python), and machine learning. You can also consider certifications from platforms like Coursera and edX to enhance your skills."
+      ]
+    },
+    {
+      "tag": "peer_learning_groups",
+      "patterns": [
+        "Are there any peer learning groups in CSE?",
+        "How can I join a study group in the department?",
+        "Can I participate in group study sessions for CSE?"
+      ],
+      "responses": [
+        "Yes the department organizes peer learning groups where students can collaborate, discuss course topics, and prepare for exams together. You can join by signing up on the [peer learning page](https://dehradun.gehu.ac.in/).",
+        "Peer learning groups are encouraged in the CSE department to promote collaborative learning. You can find information about study groups on the student portal or ask your faculty for recommendations."
+      ]
+    },
+        {
+            "tag": "programming_languages",
+            "patterns": ["What is Python?", "Tell me about Java", "What is C++ used for?", "Explain Python programming language", "What are the features of Java?"],
+            "responses": [
+                "Python is a high-level, interpreted programming language known for its easy syntax and wide use in web development, data science, and automation.",
+                "Java is a popular, object-oriented programming language known for its portability across platforms. It's commonly used in large-scale enterprise applications.",
+                "C++ is a general-purpose programming language known for its high performance and is widely used in system/software development and game programming."
+            ]
+        },
+        {
+            "tag": "data_structures",
+            "patterns": ["What is a linked list?", "Explain stacks", "What are trees in data structures?", "What is a queue?", "Define binary tree"],
+            "responses": [
+                "A linked list is a linear data structure where each element points to the next, making it efficient for insertion and deletion.",
+                "A stack is a collection that follows the Last In First Out (LIFO) principle. It is used in recursion, parsing expressions, etc.",
+                "A tree is a hierarchical data structure that consists of nodes connected by edges. The binary tree is a tree where each node has at most two children.",
+                "A queue is a linear data structure that follows the First In First Out (FIFO) principle, often used in scheduling tasks or in buffering."
+            ]
+        },
+        {
+            "tag": "algorithms",
+            "patterns": ["What is a sorting algorithm?", "Explain quicksort", "What is Dijkstra's algorithm?", "How does merge sort work?"],
+            "responses": [
+                "A sorting algorithm is used to arrange elements in a particular order (ascending or descending). Common types include bubble sort, quicksort, and merge sort.",
+                "Quicksort is a divide-and-conquer sorting algorithm that picks a 'pivot' element and partitions the array into two subarrays based on comparison to the pivot.",
+                "Dijkstra's algorithm is a famous algorithm used to find the shortest path between nodes in a graph, typically used in routing and network analysis.",
+                "Merge sort is a divide-and-conquer algorithm that divides the array into two halves, sorts each half, and then merges them to produce the sorted array."
+            ]
+        },
+        {
+            "tag": "database_management",
+            "patterns": ["What is SQL?", "Explain normalization", "What are relational databases?", "What is an index in databases?", "What is a primary key?"],
+            "responses": [
+                "SQL (Structured Query Language) is a standard language used to manage and manipulate relational databases.",
+                "Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity.",
+                "Relational databases store data in tables, which are related by common keys. Popular examples include MySQL, PostgreSQL, and SQLite.",
+                "An index is a database object that improves the speed of data retrieval operations on a table at the cost of additional space and maintenance overhead.",
+                "A primary key is a unique identifier for a record in a database table. It ensures that no two records have the same value in the primary key column."
+            ]
+        },
+        {
+            "tag": "machine_learning",
+            "patterns": ["What is machine learning?", "Explain supervised learning", "What is overfitting?", "What are neural networks?"],
+            "responses": [
+                "Machine learning is a field of artificial intelligence where computers learn from data and improve over time without being explicitly programmed.",
+                "Supervised learning is a type of machine learning where the model is trained on labeled data, i.e., input-output pairs.",
+                "Overfitting occurs when a model learns not just the underlying patterns in the training data but also the noise, making it perform poorly on new data.",
+                "Neural networks are a set of algorithms designed to recognize patterns in data, inspired by the structure of the human brain. They are used in deep learning."
+            ]
+        },
+        {
+            "tag": "operating_systems",
+            "patterns": ["What is an operating system?", "Explain virtual memory", "What is a process?", "What is a kernel?", "Explain multitasking"],
+            "responses": [
+                "An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs.",
+                "Virtual memory allows a computer to compensate for shortages of physical memory by temporarily transferring data to the hard drive.",
+                "A process is an instance of a program that is being executed. It consists of program code and its current activity.",
+                "The kernel is the core part of an operating system that manages system resources, hardware, and controls communication between software and hardware.",
+                "Multitasking is the ability of an operating system to execute multiple tasks or processes concurrently."
+            ]
+        }
+    ]
+}
