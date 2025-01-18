@@ -15,16 +15,21 @@ To get started with this project, follow these steps:
    ```bash
    git clone https://github.com/yourusername/Mini-Project-CSE-Department-Chatbot.git
 2. Navigate to the project directory:
+   ```bash
    cd Mini-Project-CSE-Department-Chatbot
 3. Install the required dependencies (use a virtual environment for better management):
+   ```bash
    pip install -r requirements.txt
-If requirements.txt doesn't exist, install the necessary dependencies manually, such as:
-pip install nltk numpy
+4. If `requirements.txt` doesn't exist, install the necessary dependencies manually, such as:
+   ```bash
+   pip install nltk numpy
 
 ## Usage
-1. Train the chatbot model by running the training.py script:
+1. Train the chatbot model by running the `training.py` script:
+   ```bash
    python training.py
 2. After training, run the chatbot using the following command:
+   ```bash
    python chatbot.py
 
 The chatbot will be ready to answer CSE department-related queries.
@@ -33,6 +38,7 @@ The chatbot will be ready to answer CSE department-related queries.
 - `nltk_utils.py` : Contains utility functions for NLP tasks such as tokenization, stemming, etc.
 - `training.py` : Script for training the chatbot model.
 - `chatbot.py` : The script that runs the chatbot for interacting with users.
-- `CSE_Research_Paper.pdf` : A research paper related to the NLP techniques used in this project.
-- `Project_Report.pdf` : A detailed project report.
+- `Research_Paper_CSE_Department_Chatbot.pdf` : A research paper related to the NLP techniques used in this project.
+- `cse_chatbot_dataset` : Dataset
+- `Anushka_Negi_K1_2318473.pdf` : A detailed project report.
 - `CSE_Chatbot_Presentation.pptx` : A presentation outlining the project goals, methods, and results.
