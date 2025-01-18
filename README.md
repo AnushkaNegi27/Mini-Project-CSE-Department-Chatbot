@@ -37,8 +37,8 @@ The chatbot will be ready to answer CSE department-related queries.
 ## Files and Directories
 - `nltk_utils.py` : Contains utility functions for NLP tasks such as tokenization, stemming, etc.
 - `training.py` : Script for training the chatbot model.
-- `chatbot.py` : The script that runs the chatbot for interacting with users.
+- `cse_chatbot.py` : The script that runs the chatbot for interacting with users.
 - `Research_Paper_CSE_Department_Chatbot.pdf` : A research paper related to the NLP techniques used in this project.
-- `cse_chatbot_dataset` : Dataset
+- `cse_chatbot_dataset` : Dataset for CSE Department Chatbot
 - `Anushka_Negi_K1_2318473.pdf` : A detailed project report.
 - `CSE_Chatbot_Presentation.pptx` : A presentation outlining the project goals, methods, and results.
