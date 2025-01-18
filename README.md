@@ -1,2 +1,38 @@
 # Mini-Project-CSE-Department-Chatbot
-A mini chatbot project for the Computer Science and Engineering (CSE) department, using NLP to handle department-related queries. Includes training scripts, utility functions, and supporting documents like a research paper, report, and presentation.
+
+## Description
+This is a mini project aimed at developing a chatbot for the Computer Science and Engineering (CSE) department. The chatbot utilizes Natural Language Processing (NLP) techniques to handle department-related queries. The project includes scripts for training the model, utility functions for preprocessing and text analysis, and supporting documents such as a research paper, report, and a presentation.
+
+## Features
+- Responds to queries related to the CSE department.
+- Built using NLP techniques, with a focus on stemming and text preprocessing.
+- Can be trained with custom data to enhance responses.
+
+## Installation
+To get started with this project, follow these steps:
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/Mini-Project-CSE-Department-Chatbot.git
+2. Navigate to the project directory:
+   cd Mini-Project-CSE-Department-Chatbot
+3. Install the required dependencies (use a virtual environment for better management):
+   pip install -r requirements.txt
+If requirements.txt doesn't exist, install the necessary dependencies manually, such as:
+pip install nltk numpy
+
+## Usage
+1. Train the chatbot model by running the training.py script:
+   python training.py
+2. After training, run the chatbot using the following command:
+   python chatbot.py
+
+The chatbot will be ready to answer CSE department-related queries.
+
+## Files and Directories
+- `nltk_utils.py` : Contains utility functions for NLP tasks such as tokenization, stemming, etc.
+- `training.py` : Script for training the chatbot model.
+- `chatbot.py` : The script that runs the chatbot for interacting with users.
+- `CSE_Research_Paper.pdf` : A research paper related to the NLP techniques used in this project.
+- `Project_Report.pdf` : A detailed project report.
+- `CSE_Chatbot_Presentation.pptx` : A presentation outlining the project goals, methods, and results.
