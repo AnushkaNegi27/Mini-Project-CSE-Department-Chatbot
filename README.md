@@ -72,10 +72,5 @@ pip install flask nltk numpy torch
 
 ```cse_chatbot.pth``` : Trained model file.
 
-```Research_Paper_CSE_Department_Chatbot.pdf``` : NLP research paper.
-
-```Anushka_Negi_K1_2318473.pdf``` : Detailed project report.
-
-```CSE_Chatbot_Presentation.pptx``` : Presentation of project goals, approach, and results.
 
 
