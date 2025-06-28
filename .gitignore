@@ -1,7 +1,19 @@
+# Python
 venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Environment
 .env
+
+# macOS
 *.DS_Store
+
+# VSCode
+.vscode/
+
+# Logs & temp files
+*.log
+*.tmp
